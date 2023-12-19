@@ -1,0 +1,180 @@
+<!-- item_postulante.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/text_view_label_dni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DNI: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@id/text_view_dni"
+        />
+
+        <TextView
+            android:id="@+id/text_view_dni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text_view_label_dni"
+            android:textSize="16sp"
+            android:gravity="start|center_vertical"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/text_view_label_apellido_paterno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido Paterno: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@id/text_view_apellidoPaterno"/>
+
+        <TextView
+            android:id="@+id/text_view_apellidoPaterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text_view_label_apellido_paterno"
+            android:textSize="16sp"
+            android:gravity="start|center_vertical" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/text_view_label_apellido_materno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido Materno: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@id/text_view_apellidoMaterno"/>
+
+        <TextView
+            android:id="@+id/text_view_apellidoMaterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text_view_label_apellido_materno"
+            android:textSize="16sp"
+            android:gravity="start|center_vertical" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/text_view_label_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@id/text_view_nombre"/>
+
+        <TextView
+            android:id="@+id/text_view_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text_view_label_nombre"
+            android:textSize="16sp"
+            android:gravity="start|center_vertical" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/text_view_label_fechaNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Nacimiento: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@id/text_view_fechaNacimiento"/>
+
+        <TextView
+            android:id="@+id/text_view_fechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text_view_label_fechaNacimiento"
+            android:textSize="16sp"
+            android:gravity="start|center_vertical" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/text_view_label_colegioProcedencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colegio de Procedencia: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@id/text_view_colegioProcedencia"/>
+
+        <TextView
+            android:id="@+id/text_view_colegioProcedencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text_view_label_colegioProcedencia"
+            android:textSize="16sp"
+            android:gravity="start|center_vertical" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/text_view_label_carreaPostula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrera a la que postula: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@id/text_view_carreraPostula"/>
+
+        <TextView
+            android:id="@+id/text_view_carreraPostula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text_view_label_carreaPostula"
+            android:textSize="16sp"
+            android:gravity="start|center_vertical" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+</LinearLayout>
